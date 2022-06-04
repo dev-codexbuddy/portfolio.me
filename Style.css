@@ -1,3 +1,49 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.all-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.all-half img{
+    width: 100%;
+}
+span{
+    color: orange;
+}
+.btn{
+    width: 25px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.btn:hover{
+    color: white;
+    background-image: linear-gradient(45deg, yellow, green);
+    cursor: pointer;
+}
+.dream-big{
+    width: 42%;
+    float: right;
+    margin-left: 5%;
+    padding: 2%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+section{
+    display: block;
+}
