@@ -18,6 +18,7 @@ h2{
 }
 span{
     color: orange;
+    font-weight: 500;
 }
 .btn{
     width: 25px;
@@ -34,6 +35,16 @@ span{
     background-image: linear-gradient(45deg, yellow, green);
     cursor: pointer;
 }
+.second-half{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding: 2%;
+}
+.dream-big img{
+    width: 100%;
+    float: left;
+}
 .dream-big{
     width: 42%;
     float: right;
@@ -46,4 +57,22 @@ section{
 }
 section{
     display: block;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+#Front-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, green);
+    border-image-slice: 1;
+}
+#Baby-dev{
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, red,blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
